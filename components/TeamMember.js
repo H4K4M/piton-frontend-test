@@ -1,3 +1,4 @@
+// components/TeamMember.js
 import React from "react";
 
 export default function TeamMember() {
@@ -7,6 +8,7 @@ export default function TeamMember() {
         Meet the heroes behind the magic
       </h1>
       <section className="w-fit mx-auto grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 justify-items-center justify-center gap-y-10 gap-x-14 mt-10 sm:mt-24 mb-3">
+        {/* Card 1 */}
         <div className="w-41 sm:w-82 bg-white shadow-md border-8">
           <img
             src="/Avatar_Founder.png"
@@ -21,7 +23,7 @@ export default function TeamMember() {
             </span>
           </div>
         </div>
-
+        {/* Card 2 */}
         <div className="w-41 sm:w-82 bg-white shadow-md border-8">
           <img
             src="/Avatar_Dev.png"
@@ -36,7 +38,7 @@ export default function TeamMember() {
             </span>
           </div>
         </div>
-
+        {/* Card 3 */}
         <div className="w-41 sm:w-82 bg-white shadow-md border-8">
           <img
             src="/Avatar_Designer.png"
