@@ -1,0 +1,76 @@
+@media screen and (min-width: 640px) {
+  /*  Shape 1 */
+  .shape {
+    position: relative;
+  }
+
+  .Ellipse {
+    position: absolute;
+    width: 506px;
+    height: 318px;
+    background: rgba(250, 204, 21, 0.7);
+    border-radius: 36px;
+    transform: rotate(-3.05deg);
+  }
+
+  /* Upper */
+  .Ellipse::before {
+    content: "";
+    position: absolute;
+    width: 506px;
+    height: 318px;
+    left: 100px;
+    top: 340px;
+    background: rgb(254, 188, 10);
+    border-radius: 50%;
+    transform: rotate(-40.52deg);
+  }
+  /* Lower */
+  .Ellipse::after {
+    content: "";
+    position: absolute;
+    width: 506px;
+    height: 318px;
+    left: 150px;
+    top: 90px;
+    background: rgb(254, 188, 10);
+    border-radius: 50%;
+    transform: rotate(-40.52deg);
+  }
+
+  .Rectangle {
+    position: absolute;
+    width: 435.12px;
+    height: 435.12px;
+    left: 382px;
+    top: 14.88px;
+    /* background: rgba(250, 204, 21, 0.7); */
+    border-radius: 176px;
+  }
+
+  /* Rectangle 546 (shape_2) */
+  .Rectangle::before {
+    content: "";
+    position: absolute;
+    width: 776px;
+    height: 776px;
+    left: 403.78px;
+    top: -60.46px;
+    background: rgb(254, 188, 10);
+    border-radius: 312px;
+    transform: rotate(16.41deg);
+  }
+
+  /* Rectangle 547 (shape_2) */
+  .Rectangle::after {
+    content: "";
+    position: absolute;
+    width: 435.12px;
+    height: 435.12px;
+    left: 162.07px;
+    top: 330.76px;
+    background: rgb(254, 188, 10);
+    border-radius: 312px;
+    transform: rotate(16.41deg);
+  }
+}
